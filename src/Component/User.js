@@ -133,7 +133,7 @@ export default function FullWidthGrid() {
           <option>View 2</option>
           <option>View 3</option>
           </select>
-              <Button className="btnConfigure">{<SimplePopper handleClick={handleClick} divId={id} />}</Button>
+              {<SimplePopper handleClick={handleClick} divId={id} />}
           </Paper>
         </Grid>
         {todisplay}

@@ -49,6 +49,8 @@
 .config-btn{
     margin-left: 40px !important;
     padding: 2px;
+    cursor: pointer;
+     
 }
 
 .configureLink{
@@ -71,7 +73,7 @@
 .select-option{
     width: 60px !important;
     padding:2px !important;
-}
+} 
 
 .select-option{
     margin-left: 20px;
@@ -82,8 +84,8 @@
     margin-left: 10px;
     border-radius: 3px;
     background-color: white;
-    
   }
+  
 
 .entriesText{
     margin-left: 22px;
@@ -99,6 +101,9 @@
       margin:0 auto; 
   }
 
+  .MuiButtonBase-root{
+      background-color: white !important;
+  } 
   .tableData{
       width:80% !important;
       margin:0 auto;
