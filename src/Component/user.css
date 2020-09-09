@@ -25,7 +25,7 @@
     display: flex;
     height: 49px;
     align-items: center;
-    padding-left:55px;
+    padding-left:60px !important;
     margin-top:-9px;
 
 }
@@ -36,7 +36,10 @@
     align-items: center;
     padding-left:55px;
     margin-top:-9px;
+}
 
+.config-btn{
+    margin-left: 40px !important;
 }
 
 .configureLink{
@@ -51,13 +54,14 @@
     display: flex;
     height: 55px;
     align-items: center;
-    margin-top:-9px;
+    margin-top:3px;
     padding-left:55px;
 }
 
+
 .select-option{
-    width: 60px ;
-    padding-left: 5px;
+    width: 60px !important;
+    padding:2px !important;
 }
 
 .select-option{
@@ -66,12 +70,16 @@
 }
 
 .div-icon {
-    height: 24px;
     margin-left: 10px;
-    padding: 0 10px;
     border-radius: 3px;
     background-color: white;
+    
   }
+
+.entriesText{
+    margin-left: 22px;
+    
+}
 
 .entriesDataInfo
   {
@@ -83,10 +91,19 @@
   }
 
   .tableData{
-      width:300px !important;
+      width:900px !important;
       margin:0 auto;
-      border:1px solid;
+      border:1px solid black !important;
+      margin-top: 70px;
+      margin-bottom: 100px;
   }
+
+  .MuiTableCell-alignRight {
+    text-align: right;
+    flex-direction: row-reverse;
+    padding-right: 90px !important;
+    border-bottom-color: gray !important;
+}
 
   .ex-val{
       display: flex;
@@ -95,6 +112,10 @@
   }
 
 .ViewForm{
+    display: flex !important;
+}
+
+.ViewTxt{
     display: flex !important;
 }
 

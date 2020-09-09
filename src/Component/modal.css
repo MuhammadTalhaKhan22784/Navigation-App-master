@@ -1,0 +1,17 @@
+
+
+.change-btn-color{
+    background-color: blue !important;
+    color: white !important;
+}
+
+/* .header{
+    display: flex;
+    direction: row;
+} */
+
+.search{
+    position: relative;
+    top: 1 rem;
+    left: 5rem;
+}

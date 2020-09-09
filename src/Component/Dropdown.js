@@ -6,6 +6,7 @@ import FormControl from '@material-ui/core/FormControl';
 import Select from '@material-ui/core/Select';
 import NativeSelect from '@material-ui/core/NativeSelect';
 import "./user.css"
+import { Label } from 'reactstrap';
 const useStyles = makeStyles((theme) => ({
   formControl: {
     margin: theme.spacing(1),
@@ -33,24 +34,15 @@ export default function NativeSelects() {
 
   return (
     <div>
-      <FormControl >
-      <InputLabel className="viewText">View</InputLabel>
+     <div className="ViewTxt">
+          <text>View</text>
+          </div>
 
-        <Select
-        className="viewSelect"
-          native
-          value={state.age}
-          onChange={handleChange}
-          inputProps={{
-            name: 'age',
-            id: 'age-native-simple',
-          }}
-        >
-          <option value={10}>View 1</option>
-          <option value={20}>View 2</option>
-          <option value={30}>View 3</option>
-        </Select>
-      </FormControl>
+          <select className="select-option">
+          <option>View 1</option>
+          <option>View 2</option>
+          <option>View 3</option>
+          </select>
       
     </div>
   );

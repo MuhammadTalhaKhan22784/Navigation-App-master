@@ -4,6 +4,7 @@ import Popover from '@material-ui/core/Popover';
 import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
 import "./user.css"
+import DownloadImage from './assets/download.png';
 
 
 
@@ -13,7 +14,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export default function SimplePopover() {
+export default function SimplePopover1() {
   const classes = useStyles();
   const [anchorEl, setAnchorEl] = React.useState(null);
 
@@ -30,8 +31,7 @@ export default function SimplePopover() {
 
   return (
     <div>
-      <Button aria-describedby={id} variant="contained" color="primary" onClick={handleClick}>
-        Open Popover
+      <Button aria-describedby={id} className="exportBtn" onClick={handleClick}><img src={DownloadImage} className="download-icon cursor"/>
       </Button>
       <Popover
         id={id}

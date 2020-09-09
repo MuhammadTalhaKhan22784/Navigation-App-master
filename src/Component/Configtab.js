@@ -23,8 +23,10 @@ export default function SimplePopper(props) {
   
   return (
     <div>
-      <button aria-describedby={props.divId} type="button" onClick={props.handleClick}>
-        Toggle Popper
+      <button className="config-btn"
+      color="primary"
+      aria-describedby={props.divId} type="button" onClick={props.handleClick}>
+        Configure
       </button>
 
     </div>

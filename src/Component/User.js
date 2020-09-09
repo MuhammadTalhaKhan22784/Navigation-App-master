@@ -124,7 +124,15 @@ export default function FullWidthGrid() {
 
         <Grid className="pb-0" item xs={12}>
           <Paper className="configureLink "> 
-              <SimpleSelect/>
+          <div className="entriesText">
+          <text>View</text>
+          </div>
+
+          <select className="select-option">
+          <option>View 1</option>
+          <option>View 2</option>
+          <option>View 3</option>
+          </select>
               <Button className="btnConfigure">{<SimplePopper handleClick={handleClick} divId={id} />}</Button>
           </Paper>
         </Grid>
@@ -143,8 +151,6 @@ export default function FullWidthGrid() {
           </select>
 
           <div className="div-icon">
-            
-    <button ><img src={DownloadImage} className="download-icon cursor"/> </button>
     <SimplePopover/>
           </div>
         <div className="pagination">

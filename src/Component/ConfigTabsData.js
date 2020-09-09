@@ -7,7 +7,6 @@ import TabList from '@material-ui/lab/TabList';
 import TabPanel from '@material-ui/lab/TabPanel';
 import "./user.css"
 import ChipsArray from './dragbutton';
-
 const useStyles = makeStyles((theme) => ({
     root: {
         flexGrow: 1,
