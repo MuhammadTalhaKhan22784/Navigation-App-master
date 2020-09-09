@@ -129,9 +129,7 @@ export default function FullWidthGrid() {
           </Paper>
         </Grid>
         {todisplay}
-        <Grid item xs={12}>
-          <Paper className="">xs=12</Paper>
-        </Grid>
+       
         <Grid item xs={12}>
           <Paper className="entriesDataInfo">
           <div className="entriesText">

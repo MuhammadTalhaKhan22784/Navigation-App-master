@@ -123,4 +123,22 @@
     margin-top: 0px !important;
 }
 .pb-0 {
-    padding-bottom:0px !important;}
+    padding-bottom:10px !important;}
+
+
+.con-data-name{
+    display:flex !important;
+    justify-content: space-around;
+    
+}
+.bold-txt{
+    font-weight: bold;
+}
+
+.m-left{
+    margin-left:6px ;
+}
+
+.con-d-APtext{
+    padding-left: 18px;
+}

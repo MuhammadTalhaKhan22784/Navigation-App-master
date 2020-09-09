@@ -28,7 +28,6 @@ const rows = [
 ];
 
 export default function SimpleTable() {
-  const classes = useStyles();
 
   return (
     <TableContainer component={Paper} >
