@@ -6,6 +6,7 @@ import TabContext from '@material-ui/lab/TabContext';
 import TabList from '@material-ui/lab/TabList';
 import TabPanel from '@material-ui/lab/TabPanel';
 import "./user.css"
+import ChipsArray from './dragbutton';
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -69,8 +70,8 @@ export default function LabTabs() {
                         </div>
                     </div>
                 </TabPanel>
-                <TabPanel value="2">Item Two</TabPanel>
-                <TabPanel value="3">Item Three</TabPanel>
+                <TabPanel value="2"><ChipsArray/></TabPanel>
+                <TabPanel value="3"></TabPanel>
             </TabContext>
         </div>
     );
