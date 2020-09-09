@@ -30,10 +30,10 @@ const rows = [
 export default function SimpleTable() {
 
   return (
-    <TableContainer component={Paper} >
+    <TableContainer className="Maintable" component={Paper} >
       <Table className="tableData" aria-label="simple table">
         <TableHead>
-          <TableRow >
+          <TableRow ClassName="tb-row" >
             <TableCell  align="right">LoginId</TableCell>
             <TableCell align="right">FirstName</TableCell>
             <TableCell align="right">LastName&nbsp;(g)</TableCell>

@@ -7,6 +7,7 @@ import TabList from '@material-ui/lab/TabList';
 import TabPanel from '@material-ui/lab/TabPanel';
 import "./user.css"
 import ChipsArray from './dragbutton';
+import { Button } from '@material-ui/core';
 const useStyles = makeStyles((theme) => ({
     root: {
         flexGrow: 1,
@@ -35,7 +36,7 @@ export default function LabTabs() {
                 <TabPanel value="1">
                     <div className="config-header">
                         <div className="con-data-name">
-                            
+
                             <div className="input-data">
                                 <div className="con-d-text bold-txt m-left"><text>Name</text></div>
                                 <input type="text" placeholder="Name"></input>
@@ -69,8 +70,10 @@ export default function LabTabs() {
                         </div>
                     </div>
                 </TabPanel>
-                <TabPanel value="2"><ChipsArray/></TabPanel>
-                <TabPanel value="3"></TabPanel>
+                <TabPanel value="2"><ChipsArray /></TabPanel>
+                <TabPanel value="3">
+                    <Button variant="contained" color="primary">Filter</Button>
+                </TabPanel>
             </TabContext>
         </div>
     );

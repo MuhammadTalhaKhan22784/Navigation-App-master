@@ -1,3 +1,9 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
 .userIcon{
     padding: 2px;
     width: 60px;
@@ -5,7 +11,9 @@
     border-radius: 5px;
     background-color: #3bb8ff;
 }
-
+.makeStyles-paper-3{
+    background-color: #F5F8FF !important;
+}
 .userTab{
     display: flex;
     align-items: center;
@@ -40,6 +48,7 @@
 
 .config-btn{
     margin-left: 40px !important;
+    padding: 2px;
 }
 
 .configureLink{
@@ -91,11 +100,23 @@
   }
 
   .tableData{
-      width:900px !important;
+      width:80% !important;
       margin:0 auto;
       border:1px solid black !important;
       margin-top: 70px;
+      margin-left: 110px;
       margin-bottom: 100px;
+      background-color: white;
+      box-shadow: 2px 2px 2px 2px #F0F0F0 !important;
+  }
+
+  .MuiTableCell-head {
+      background-color: #E5E9F1 !important;
+  }
+
+  .Maintable{
+      background-color:#F5F8FF !important;
+      
   }
 
   .MuiTableCell-alignRight {
@@ -104,6 +125,7 @@
     padding-right: 90px !important;
     border-bottom-color: gray !important;
 }
+
 
   .ex-val{
       display: flex;
@@ -168,13 +190,17 @@
     border: 1px solid black !important;
 }
 
+.input-data input{
+    padding: 2px;
+    border:0.5px solid lightgray !important;
+}
 .MuiPaper-elevation1{
     box-shadow: none !important;
     padding-left: 10px;
 }
 
 .MuiTabPanel-root{
-    padding:10px !important;
+    padding:20px !important;
 }
 
 .drg-li{
