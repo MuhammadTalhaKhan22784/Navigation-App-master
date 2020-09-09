@@ -20,11 +20,11 @@ function createData(LoginId, FirstName, LastName, Email) {
 }
 
 const rows = [
-  createData('10', 159, 6.0, 24, 4.0),
-  createData('11', 237, 9.0, 37, 4.3),
-  createData('12', 262, 16.0, 24, 6.0),
-  createData('13', 305, 3.7, 67, 4.3),
-  createData('15', 356, 16.0, 49, 3.9),
+  createData('10', 159, 6.0, 'xyz123@gmail.com'),
+  createData('11', 237, 9.0, 'xyz123@gmail.com'),
+  createData('12', 262, 16.4,'xyz123@gmail.com'),
+  createData('13', 305, 3.7, 'xyz123@gmail.com'),
+  createData('15', 356, 16.0, 'xyz123@gmail.com'),
 ];
 
 export default function SimpleTable() {
