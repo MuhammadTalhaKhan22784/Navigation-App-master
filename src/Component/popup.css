@@ -1,0 +1,43 @@
+
+/* .export-card{
+    width:500px;
+    height: 400px;
+    position: absolute;
+    background-color: white;
+} */
+.main{
+    width:480px;
+    height: 370px;
+    position: absolute;
+    background-color: white;
+}
+.exp-head{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 1.4rem;
+    background-color: #E5E9F1;
+    padding-bottom: 22px;
+    padding-top: 20px;
+    border-bottom: 1px solid gray;
+}
+
+.exp-head text{
+    font-size: 18px;
+}
+
+.closeIcon{
+    margin-left: 330px;
+    border: 0.8px solid lightblue;
+    padding: 2px 3px 1px 3px;
+    cursor: pointer;
+}
+
+p{
+    margin-top: 15px;
+    padding-left: 20px;
+}
+
+.ex-formats{
+    padding-left: 20px;
+}

@@ -20,6 +20,7 @@ import SimplePopover from "./popup";
 import SimpleSelect from "./Dropdown";
 import SimplePopper from "./Configtab";
 import LabTabs from './ConfigTabsData';
+import TransitionsModal from "./popup";
 
 
 
@@ -152,7 +153,7 @@ export default function FullWidthGrid() {
           </select>
 
           <div className="div-icon">
-    <SimplePopover/>
+        <TransitionsModal/>
           </div>
         <div className="pagination ">
         <Pagination count={3} variant="outlined" color={classes.color} shape="rounded" /></div>
