@@ -27,7 +27,7 @@ import LabTabs from './ConfigTabsData';
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
-    backgroundColor:'#F5F8FF'
+    backgroundColor:'#F5F8FF',
   },
   '& > * + *': {
     marginTop: theme.spacing(2),
@@ -133,7 +133,7 @@ export default function FullWidthGrid() {
           <option>View 2</option>
           <option>View 3</option>
           </select>
-              {<SimplePopper handleClick={handleClick} divId={id} />}
+              <Button className="btnConfigure">{<SimplePopper handleClick={handleClick} divId={id} />}</Button>
           </Paper>
         </Grid>
         {todisplay}
@@ -153,8 +153,8 @@ export default function FullWidthGrid() {
           <div className="div-icon">
     <SimplePopover/>
           </div>
-        <div className="pagination">
-        <Pagination count={3} variant="outlined" shape="rounded" /></div>
+        <div className="pagination ">
+        <Pagination count={3} variant="outlined" color="primary" shape="rounded" /></div>
         <div className={classes.search}>
             <div className={classes.searchIcon}>
               <SearchIcon />
