@@ -47,8 +47,8 @@
 }
 
 .config-btn{
-    margin-left: 40px !important;
-    padding: 2px;
+    margin-left: 20px !important;
+    padding: 4px 4px ;
     cursor: pointer;
      
 }
@@ -59,6 +59,7 @@
 
 .btnConfigure{
     color: #3BBEF4 !important;
+
 }
 
 .entriesDataInfo{
@@ -70,10 +71,6 @@
 }
 
 
-.select-option{
-    width: 60px !important;
-    padding:2px !important;
-} 
 
 .select-option{
     margin-left: 20px;
@@ -88,7 +85,7 @@
   
 
 .entriesText{
-    margin-left: 22px;
+    margin-left: 30px;
     
 }
 
