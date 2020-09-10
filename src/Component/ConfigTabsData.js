@@ -8,6 +8,7 @@ import TabPanel from '@material-ui/lab/TabPanel';
 import "./user.css"
 import ChipsArray from './dragbutton';
 import { Button } from '@material-ui/core';
+import FilterTransitionsModal from './FilterPopup';
 const useStyles = makeStyles((theme) => ({
     root: {
         flexGrow: 1,
@@ -72,7 +73,7 @@ export default function LabTabs() {
                 </TabPanel>
                 <TabPanel value="2"><ChipsArray /></TabPanel>
                 <TabPanel value="3">
-                    <Button variant="contained" color="primary">Filter</Button>
+                   <FilterTransitionsModal/>
                 </TabPanel>
             </TabContext>
         </div>
